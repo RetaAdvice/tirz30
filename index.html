@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tirzepatide 30mg</title>
+
+  <style>
+    :root {
+      --bg: #f4f7f6;
+      --surface: #ffffff;
+      --text: #17201d;
+      --muted: #68726e;
+      --border: #e2e8e5;
+      --accent: #1f6b55;
+      --accent-light: #e9f3ef;
+      --notice-bg: #fff9eb;
+      --notice-border: #e8c66a;
+      --notice-text: #66521b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background:
+        linear-gradient(180deg, #eef4f1 0%, var(--bg) 260px);
+      color: var(--text);
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(100% - 32px, 760px);
+      margin: 0 auto;
+      padding: 56px 0 80px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 44px;
+      box-shadow:
+        0 20px 50px rgba(24, 48, 39, 0.07),
+        0 3px 10px rgba(24, 48, 39, 0.04);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 3.5rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      font-weight: 750;
+    }
+
+    .subtitle {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .divider {
+      height: 1px;
+      margin: 34px 0;
+      background: var(--border);
+    }
+
+    .notice {
+      margin: 28px 0 36px;
+      padding: 18px 20px;
+      border: 1px solid var(--notice-border);
+      border-left: 5px solid var(--notice-border);
+      border-radius: 10px;
+      background: var(--notice-bg);
+      color: var(--notice-text);
+      font-size: 0.94rem;
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      margin: 0 0 22px;
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+    }
+
+    .steps {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .steps li {
+      counter-increment: step;
+      position: relative;
+      margin-bottom: 12px;
+      padding: 18px 18px 18px 64px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fbfcfc;
+      font-size: 1rem;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .steps li:last-child {
+      margin-bottom: 0;
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 20px, 760px);
+        padding: 20px 0 40px;
+      }
+
+      .card {
+        padding: 28px 20px;
+        border-radius: 16px;
+      }
+
+      .steps li {
+        padding: 16px 14px 16px 56px;
+      }
+
+      .steps li::before {
+        left: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <article class="card">
+
+      <header>
+        <div class="eyebrow">Injection and Dosage Instructions</div>
+
+        <h1>Tirzepatide</h1>
+
+        <p class="subtitle">
+          Injection reference and administration notes
+        </p>
+      </header>
+
+      <div class="notice">
+        <strong>Important</strong>
+       Tirzepatide is the generic active drug name for Mounjaro. To achieve a 2.5mg dose with this pen, set the pen to "25". For a 5.0mg dose, set to "50". Detailed dosage schedules are widely available online.
+      </div>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>Instructions</h2>
+
+        <ol class="steps">
+          <li>Add the needle tip to the Reta Pen by pushing it on first, then twisting until it is secure</li>
+          <li>Prime the needle with 2-3 clicks to ensure no air is in the cartridge</li>
+          <li>Select suitable injection site (belly fat, upper thigh or behind the upper arm)</li>
+          <li>Clean the injection site with the supplied Alcohol wipes</li>
+          <li>Set the pen to your desired dosage (see notice above for more details). This pen can be wound back if taken too far</li>
+          <li>Press and hold the plunger until it reaches the base</li>
+          <li>Leave in the skin for 5 seconds before removing and safely disposing of the tip</li>
+        </ol>
+      </section>
+
+   <footer>
+     Research use only
+   </footer>
+
+    </article>
+
+  </main>
+
+</body>
+</html>
